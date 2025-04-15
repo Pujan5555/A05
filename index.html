@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donate Bangladesh</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css"/>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
@@ -18,10 +18,10 @@
     <!-- navbar starts here -->
 
     <nav class="bg-[#F9F7F3] flex justify-around items-center font-lexend h-16 w-full sticky top-0 z-10">
-        <div class="border-2 border-red-500">
-            <button class="font-bold bg-[#B4F461]">Blog</button>
+        <div>
+            <button class="font-bold bg-[#B4F461] w-20 h-8 cursor-pointer">Blog</button>
         </div>
-        <div class="flex items-center gap-2">
+        <div class="flex items-center gap-2 cursor-pointer">
             <img src="logo.png" alt="logo" class="w-8 h-8">
             <h4 class="font-semibold">Donate Bangladesh</h4>
         </div>
@@ -31,6 +31,15 @@
             <span>BDT</span>
         </div>
     </nav>
+
+    <!-- first section -->
+     <section class="flex flex-col items-center justify-center font-lexend py-10 border-2 border-red-500">
+        <div class="flex justify-center items-center gap-6">
+            <button class="rounded-2xl bg-[#B4F461]">Donation</button>
+            <button class="p-4 rounded-2xl">History</button>
+        </div>
+        <div></div>
+     </section>
 </body>
 
 </html>
